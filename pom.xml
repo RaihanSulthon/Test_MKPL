@@ -20,4 +20,12 @@
             <version>1.11.0-M2</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/RaihanSulthon/Test_MKPL</url>
+        </repository>
+      </distributionManagement>
 </project>
