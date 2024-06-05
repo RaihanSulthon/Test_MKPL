@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Kalkulator Sederhana");
+            System.out.println("Kalkulator Biasa");
             System.out.print("Masukkan angka pertama: ");
             double num1 = scanner.nextDouble();
             System.out.print("Masukkan operator (+, -, *, /): ");
